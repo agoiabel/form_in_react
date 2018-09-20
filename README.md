@@ -4,7 +4,7 @@
 
 There are two types of form input in `react`. We have the `uncontrolled input` and the `controlled input`. The `uncontrolled input` are like traditional HTML form inputs, they remember what you typed. We will use `ref` to get the form values.
 
-<script src="https://gist.github.com/agoiabel/34bb1d4be4c4a507ebff7a3f2151842b.js"></script>
+{% gist https://gist.github.com/agoiabel/34bb1d4be4c4a507ebff7a3f2151842b %}
 
 We added the `ref="name"` to the input tag so that we can access the value with `this.refs.name.value` when the form is submitted. The downside to this is that you have to “pull” the value from the field when you need it and this can happen when the form is submitted.
 
